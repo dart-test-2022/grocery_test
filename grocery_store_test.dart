@@ -62,7 +62,7 @@ void main() {
     expect(getAmountMeat(products), 3);
   });
   test('Get of Total Prices Meat', () {
-    expect(getTotalPricesMeat(products), 7.970000000000001);
+    expect(getTotalPricesMeat(products), 17.97);
   });
   test('Get most expensive', () {
     expect(getMostExpensive(products), 'Coffee');
